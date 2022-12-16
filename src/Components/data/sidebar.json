@@ -1,0 +1,253 @@
+[
+    {
+        "title": "Home",
+        "path": "/home1",
+        "status": true
+    },
+    
+    {
+        "title": "Sales",
+        "path": "sales",
+        "status": true,
+        "childrens":[
+            {
+                "title": "Corporate Deck",
+                "path": "/sales/Corporate-deck",
+                "status": true
+            },
+            {
+                "title": "Domains",
+                "path": "sales/domains",
+                "status": true,
+                "childrens": [
+                    {
+                        "title": " Quality Assurance",
+                        "path": "/sales/domains/qa",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "Manual",
+                                "path": "/sales/domains/qa",
+                                "status": true,
+                                "id":"Manual"
+                            },
+                            {
+                                "title": "Automation",
+                                "path": "/sales/domains/qa",
+                                "status": true,
+                                "id":"Automation"
+                            },
+                            {
+                                "title": "Performance",
+                                "path": "/sales/domains/qa",
+                                "status": true,
+                                "id":"Performance"
+                            },
+                            {
+                                "title": "Security",
+                                "path": "/sales/domains/qa",
+                                "status": true,
+                                "id":"Security"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "M&E - OTT",
+                        "path": "/sales/domains/m&e-ott",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "iStream -TV's and WEB",
+                                "path": "/sales/domains/m&e-ott",
+                                "status": true,
+                                "id":"istream-tv&web"
+                            },
+                            {
+                                "title": "iStream - mobile",
+                                "path": "/sales/domains/m&e-ott",
+                                "status": true,
+                                "id":"istream-mobile"
+                            },
+                            {
+                                "title": "Comcast -Lightining",
+                                "path": "/sales/domains/m&e-ott",
+                                "status": true,
+                                "id":"comcast-lighting"
+                            },
+                            {
+                                "title": "Sencore",
+                                "path": "/sales/domains/m&e-ott",
+                                "status": true,
+                                "id":"sencore"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Blockchain",
+                        "path": "/sales/domains/blockchain",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "coyni- WEB- Admin, Customer, Merchant, Checkout",
+                                "path": "/sales/domains/blockchain",
+                                "status": true,
+                                "id":"coyni-web-admin-customer-merchant-checkout"
+                            },
+                            {
+                                "title": "coyni-  Mobile - Customer, Merchant",
+                                "path": "/sales/domains/blockchain",
+                                "status": true,
+                                "id":"coyni-mobile-customer-merchant"
+                            },
+                            {
+                                "title": "iBaaS - WEB- Admin, Customer, Merchant, Checkout",
+                                "path": "/sales/domains/blockchain",
+                                "status": true,
+                                "id":"ibaas-web-admin-customer-merchant-checkout"
+                            },
+                            {
+                                "title": "iBaaS-  Mobile - Customer, Merchant",
+                                "path": "/sales/domains/blockchain",
+                                "status": true,
+                                "id":"ibaas-mobile-customer-merchant"
+                            },
+                            {
+                                "title": "TEU and ChargeSavvy",
+                                "path": "/sales/domains/blockchain",
+                                "status": true,
+                                "id":"teu-chargesavvy"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "IOT",
+                        "path": "sales/domains/iot",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "Tenna",
+                                "path": "sales/domains/iot",
+                                "status": true,
+                                "id":"tenna"
+                            }
+                        ]
+                    },
+                    {
+                        "title": " Retails & E-Commerce",
+                        "path": "/sales/domains/retail-ecommerce",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "WISH",
+                                "path": "/sales/domains/retail-ecommerce",
+                                "status": true,
+                                "id":"wish"
+                            },
+                            {
+                                "title": "Sensible Auto",
+                                "path": "/sales/domains/retail-ecommerce",
+                                "status": true,
+                                "id":"sensible-auto"
+                            },
+                            {
+                                "title": "KIDOZ",
+                                "path": "/sales/domains/retail-ecommerce",
+                                "status": true,
+                                "id":"kidoz"
+                            },
+                            {
+                                "title": "Noumena",
+                                "path": "/sales/domains/retail-ecommerce",
+                                "status": true,
+                                "id":"noumena"
+                            },
+                            {
+                                "title": "SPI Logistics",
+                                "path": "/sales/domains/retail-ecommerce",
+                                "status": true,
+                                "id":"spi-logistics"
+                            },
+                            {
+                                "title": "ServiceGeeni",
+                                "path": "/sales/domains/retail-ecommerce",
+                                "status": true,
+                                "id":"servicegeeni"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+       
+    },
+
+    {
+        "title":"SDLC-Project Execution Process-Agile ",
+        "path": "/home/sdlc",
+        "status": true,
+        "childrens": [  
+        {
+            "title": " Blockchain",
+            "path": "/home/sdlc/blockchain",
+            "status": true,
+            "childrens": [
+                {
+                    "title": "coyni",
+                    "path": "/home/sdlc/blockchain",
+                    "status": true,
+                    "id":"coyni"
+                },
+                {
+                    "title": "ChargeSavvy",
+                    "path": "/home/sdlc/blockchain",
+                    "status": true,
+                    "id":"chargeSavvy"
+                },
+                {
+                    "title": "TEU",
+                    "path": "/home/sdlc/blockchain",
+                    "status": true,
+                    "id":"teu"
+                },
+                {
+                    "title": "TENNA",
+                    "path": "/home/sdlc/blockchain",
+                    "status": true,
+                    "id":"tenna"
+                }
+                
+                
+            ]
+        },
+        {
+            "title": " M&E - OTT",
+            "path": "/home/sdlc/me-ott",
+            "status": true,
+            "childrens": [
+                {
+                    "title": "iStream",
+                    "path": "/home/sdlc/me-ott",
+                    "status": true,
+                    "id":"istream"
+                },
+                {
+                    "title": "Comcast",
+                    "path": "/home/sdlc/me-ott",
+                    "status": true,
+                    "id":"comcast"
+                },
+                {
+                    "title": "WISH",
+                    "path": "/home/sdlc/me-ott",
+                    "status": true,
+                    "id":"wish"
+                }
+            ]
+        }
+
+
+    ]
+    }
+    
+    
+]

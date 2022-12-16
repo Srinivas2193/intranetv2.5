@@ -1,0 +1,30 @@
+#navBar{
+    grid-gap: 0%;
+    display: none;
+}
+.sha{
+    color: white;
+}
+
+
+
+
+#navBar > a{
+    color: #fff;
+    padding: 0px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navBar > a:hover{
+    font-weight: bold;
+    color: #0b0a0a;
+}
+.logoutButton:hover{
+    background-color: #fff;
+    height:40px;
+    color: rgb(235, 120, 5);
+    border-radius: 6px;
+    margin-top: 4px;
+}
