@@ -7,8 +7,8 @@ function CorporateDeck(){
   }
     return(
       <>
-      {visible && <div className="w-[1570px] h-[100%] flex flex-row flex-wrap bg-slate-100">
-      <div className="text-3xl w-[inherit] text-white flex justify-center items-center">
+      {visible && <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100">
+      <div className="text-3xl text-white">
         <div className="p-4 bg-black rounded-xl">
           <button onClick={EnabalePdf}>CorporateDeck</button>
         </div>
@@ -17,12 +17,11 @@ function CorporateDeck(){
 
     {visible === false && 
     <div>
-       <object data={pdf} type="application/pdf" style={{ height: "730px", width: "1570px" }} >
-                <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
-            </object>
-            </div>
+        <object data={pdf} type="application/pdf" className="w-[1570px] max-w-[-webkit-fill-available] h-[730px] " >
+        </object>
+    </div>
 }
     </>
     )
-}
+  }
 export default CorporateDeck;

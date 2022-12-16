@@ -51,7 +51,7 @@ margin-right: 209px;
     max-width: 812px;
     margin-top: 66px;
     height: 544px;
-    margin-left: 456px;
+    /* margin-left: 456px; */
     border-radius: 10px;
 }
 .login:hover{
@@ -63,11 +63,11 @@ margin-right: 209px;
 }
 
 .logimIng{
-    height: 322px;
-    width: 322px;
-    position: absolute;
-    top: 254px;
-    right: 281px;
+     /* height: 322px; */
+    /* width: 322px; */
+    position: relative;
+    top: 191px;
+    right: 143px;
 }
 
 .forgotPass{
