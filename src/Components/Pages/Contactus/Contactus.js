@@ -52,11 +52,11 @@ export default function Contact(props) {
   };
   return (
     <>
-      <div className="contactform bg-slate-100 flex flex-row justify-center items-center">
-        <div>
+      <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] bg-slate-100 flex flex-row justify-center items-center">
+        <div className="m-[70px]">
         <img src={contactme} />
         </div>
-        <div className="contactQA">
+        <div className="m-[40px] ml-[40px]">
           <h2 className="text-3xl font-bold ml-20 text-black  hover:text-orange-500 my-3">
             Contact Us
           </h2>

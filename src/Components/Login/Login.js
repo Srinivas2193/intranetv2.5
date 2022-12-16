@@ -58,10 +58,8 @@ export const Login = (props) => {
     <>
       <div className="flex flex-row justify-between bg-sky-300 drop-shadow-xl">
         <div>
-          <h1
-            className="p-2 text-5xl font-bold text-gray-500"
-            style={{ fontStyle: "font-family: 'Lato', sans-serif;" }}
-          >
+          <h1 className="p-2 text-5xl font-bold text-gray-500"
+            style={{ fontStyle: "font-family: 'Lato', sans-serif;" }}>
             <span style={{ color: "#eb7524", marginRight: "" }}>
               ideyaLabs{" "}
             </span>
@@ -73,13 +71,10 @@ export const Login = (props) => {
         </div>
       </div>
 
-      <div className="flex flex-row pb-16 bg-gradient-to-r from-orange-300 to-blue-300 min-w-[1200px] max-w-[1920px] min-h-[676px] max-h-[976px]">
-        <img className="logimIng" src={LoginImage} />
-
-        <form
-          onSubmit={onSubmit}
-          className="flex flex-col  bg-gradient-to-r from-blue-300 to-orange-300 login justify-end w-[953px] pt-10 shadow-2xl"
-        >
+      <div className="flex flex-row justify-center pb-16 bg-gradient-to-r from-orange-300 to-blue-300 min-w-[1200px] max-w-[1920px]">
+      <div>
+        <form onSubmit={onSubmit} 
+        className=" login flex flex-col  bg-gradient-to-r from-blue-300 to-orange-300  justify-end w-[953px] pt-10 shadow-2xl" >
           <h2 className="text-3xl font-bold text-black mb-9 loginHeading">
             Login
           </h2>
@@ -138,9 +133,16 @@ export const Login = (props) => {
             </Link>
           </span>
         </form>
+        </div>
 
         {/* <br /> */}
+        <div className="logimIng" >
+        <img src={LoginImage} />
+
+        </div>
+
       </div>
+
       <Footer />
     </>
   );

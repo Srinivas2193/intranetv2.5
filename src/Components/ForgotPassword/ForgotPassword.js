@@ -135,12 +135,13 @@ function ForgotPassword() {
                     <p>Back to login</p>{" "}
                   </Link>
                 </div>
-                <div className="forgotLogo">
-                  <img src={forgotPasswordLogo} alt="ForgotPassword Logo" />
-                </div>
+
               </div>
             </form>
           </div>
+          <div className="forgotLogo">
+                  <img src={forgotPasswordLogo} alt="ForgotPassword Logo" />
+                </div>
         </div>
       )}
 

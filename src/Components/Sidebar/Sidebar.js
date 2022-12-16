@@ -10,7 +10,7 @@ export default function Sidebar() {
      
         <ScrollArea
             speed={0.8}
-            className="min-w-[200px] max-w-[400px] h-[640px] m-[-12px]"
+            className="min-w-[200px] max-w-[400px] h-[739px] m-[-12px]"
             contentClassName="content"
             horizontal={false}
             >

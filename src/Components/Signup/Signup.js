@@ -132,7 +132,7 @@ export default function Signup(props) {
   return (
     <>
       <Header />
-      <div className="container min-w-[1500px] pt-24 p-24 bg-gradient-to-r from-orange-300 to-blue-300 max-w-[1920px]">
+      <div className="h-[730px] min-w-[800px] pt-24 p-24 bg-gradient-to-r from-orange-300 to-blue-300 max-w-[1920px]">
         <form autoComplete="off" onSubmit={onSubmit} className="mt-16">
           <div className="columns-2 gap-28">
             <label className="block text-xl font-bold">First name</label>
@@ -272,8 +272,10 @@ export default function Signup(props) {
               ) : null}
             </span>
           </div>
+          
           <br />
           <br />
+          <div className="flex flex-row flex-wrap justify-center items-center">
           <button
             type="submit"
             className=" bg-blue-600 hover:bg-black rounded-md px-4 py-2 text-2xl mb-5 text-white font-bold hover:ease-in duration-300"
@@ -291,7 +293,9 @@ export default function Signup(props) {
               Login
             </Link>
           </p>
+          </div>
         </form>
+        
       </div>
       <Footer />
     </>

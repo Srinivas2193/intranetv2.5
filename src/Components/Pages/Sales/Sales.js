@@ -6,8 +6,8 @@ function Sales(){
 
     return(
         <>
-            <div className="w-[1570px] h-[100%]">
-            <img src={image}  alt="sales image" className="h-[730px] w-[1570px]" />
+    <div >
+            <img src={image}  alt="sales image" className="w-[1570px] max-w-[-webkit-fill-available] h-[730px] flex flex-row flex-wrap justify-center items-center bg-slate-100" />
         </div>
         </>
     )
