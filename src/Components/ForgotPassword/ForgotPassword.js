@@ -93,7 +93,7 @@ function ForgotPassword() {
     <>
       <Header />
       {emailFiels && (
-        <div className="h-[676px] max-w-[1920px] items-center flex flex-row flex-wrap justify-center bg-gradient-to-r from-orange-300 to-blue-300">
+        <div className="h-[776px] max-w-[1920px] items-center flex flex-row flex-wrap justify-center bg-gradient-to-r from-orange-300 to-blue-300">
           <div>
             <form className=" h-[500px] w-[800px]  justify-center bg-gradient-to-r from-blue-300 to-orange-300 shadow-md rounded px-8 pt-6 pb-8 mb-4">
               <div className="formFields">
@@ -141,14 +141,14 @@ function ForgotPassword() {
           </div>
           <div className="forgotLogo">
                   <img src={forgotPasswordLogo} alt="ForgotPassword Logo" />
-                </div>
+          </div>
         </div>
       )}
 
       {/* OTP form */}
 
       {otpFeild && (
-        <div className="h-[676px] max-w-[1920px] items-center flex flex-row flex-wrap justify-center bg-gradient-to-r from-orange-300 to-blue-300">
+        <div className="h-[776px] max-w-[1920px] items-center flex flex-row flex-wrap justify-center bg-gradient-to-r from-orange-300 to-blue-300">
         <div>
           <form className=" h-[500px] w-[800px]  justify-center bg-gradient-to-r from-blue-300 to-orange-300 shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <div className="formFields">
@@ -177,27 +177,26 @@ function ForgotPassword() {
                     Submit OTP
                   </button>
                 </div>
-                <div className="forgotLogo">
-                  <img src={forgotPasswordLogo} alt="ForgotPassword Logo" />
-                </div>
               </div>
             </form>
           </div>
+           <div className="forgotLogo">
+             <img src={forgotPasswordLogo} alt="ForgotPassword Logo" />
+           </div>
         </div>
       )}
 
       {/* password feilds */}
 
       {passwordFeild && (
-       <div className="h-[676px] max-w-[1920px] items-center flex flex-row flex-wrap justify-center bg-gradient-to-r from-orange-300 to-blue-300">
+       <div className="h-[776px] max-w-[1920px] items-center flex flex-row flex-wrap justify-center bg-gradient-to-r from-orange-300 to-blue-300">
        <div>
          <form className=" h-[500px] w-[800px]  justify-center bg-gradient-to-r from-blue-300 to-orange-300 shadow-md rounded px-8 pt-6 pb-8 mb-4">
            <div className="formFields">
                 <div className="mb-9">
                   <label
                     class="block text-gray-700 text-3xl font-bold mb-2"
-                    for="otp"
-                  >
+                    for="otp">
                     Enter password
                   </label>
                   <input
@@ -206,15 +205,13 @@ function ForgotPassword() {
                     class=" mt-4 shadow appearance-none border rounded-lg w-[300px] p-[16px] text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="username"
                     type="password"
-                    placeholder="Enter Password"
-                  />
+                    placeholder="Enter Password" />
                 </div>
 
                 <div className="mb-9">
                   <label
                     class="block text-gray-700 text-3xl font-bold mb-2"
-                    for="otp"
-                  >
+                    for="otp" >
                     Confirm password
                   </label>
                   <input
@@ -223,8 +220,7 @@ function ForgotPassword() {
                     class=" mt-4 shadow appearance-none border rounded-lg w-[300px] p-[16px] text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="username"
                     type="password"
-                    placeholder="Confirm Password"
-                  />
+                    placeholder="Confirm Password"/>
                   {err2 && (
                     <span className="text-xl">
                       plese match the both password
@@ -236,16 +232,15 @@ function ForgotPassword() {
                   <button
                     onClick={SavePassword}
                     class="bg-neutral-700 hover:bg-neutral-900 text-white text-xl w-24 ml-24 font-bold py-4 px-5 rounded focus:outline-none focus:shadow-outline"
-                    type="button"
-                  >
+                    type="button">
                     Save
                   </button>
                 </div>
-                <div className="forgotLogo">
-                  <img src={forgotPasswordLogo} alt="ForgotPassword Logo" />
-                </div>
               </div>
             </form>
+          </div>
+          <div className="forgotLogo">
+           <img src={forgotPasswordLogo} alt="ForgotPassword Logo" />
           </div>
         </div>
       )}

@@ -132,7 +132,7 @@ export default function Signup(props) {
   return (
     <>
       <Header />
-      <div className="h-[730px] min-w-[800px] pt-24 p-24 bg-gradient-to-r from-orange-300 to-blue-300 max-w-[1920px]">
+      <div className="h-[776px] min-w-[800px] pt-24 p-24 bg-gradient-to-r from-orange-300 to-blue-300 max-w-[1920px]">
         <form autoComplete="off" onSubmit={onSubmit} className="mt-16">
           <div className="columns-2 gap-28">
             <label className="block text-xl font-bold">First name</label>

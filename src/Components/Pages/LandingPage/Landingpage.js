@@ -19,7 +19,7 @@ import testClosure from './../../../Images/landingPageImg/testClosure.jpg'
 import apiTesting from './../../../Images/landingPageImg/apiTesting1.jpeg'
 
 import {useNavigate } from "react-router-dom";
-// import ScrollArea from 'react-scrollbar';
+import ScrollArea from 'react-scrollbar';
 
 
 //import bank from "./images/QA-Images/Banking.png"
@@ -52,12 +52,12 @@ export const Home = (props) => {
   return (
     <>
 <div className="px-[2px] bg-gradient-to-r from-slate-300 via-orange-300 to-blue-300" >
-{/* <ScrollArea
+<ScrollArea
             speed={0.8}
             className="min-w-[768px] max-w-[-webkit-fill-available] p-9 h-[730px]"
             contentClassName="content"
             horizontal={false}
-            > */}
+            >
           <div className="flex flex-row justify-center">
          <Carosal />
 
@@ -73,7 +73,7 @@ export const Home = (props) => {
 
         ))}
       </div>
-      {/* </ScrollArea> */}
+      </ScrollArea>
     </div>
     </>
   );
