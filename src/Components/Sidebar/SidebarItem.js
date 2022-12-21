@@ -47,13 +47,14 @@ export default function SidebarItem({ item }) {
         className={({ isActive }) =>
           isActive
             ? "text-orange-600 sidebar-item plain1"
-            : "sidebar-item plain list-disc"
+            : "sidebar-item plain "
         }
       >
         {item.icon && <i className={item.icon}></i>}
         <div className="wrapper">
         <ul className=" ml-3">
-          <li onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} className="listStyle hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-400 duration-[400ms,700ms] transition-[color,box-shadow] hover:rounded-[15px] hover:p-[10px] ">
+          <li onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} 
+          className="listStyle hover:text-white p-[8px] hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-400 duration-[400ms,700ms] transition-[color,box-shadow] hover:rounded-[15px] hover:p-[8px] ">
             {item.title}
           </li>
         </ul>
