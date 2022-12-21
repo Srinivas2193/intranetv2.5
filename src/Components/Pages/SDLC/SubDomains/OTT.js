@@ -44,7 +44,7 @@ function OTT() {
     <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100">
       <div className="text-3xl text-white">
         {filterData.map((val, key) => (
-          <div className="p-4 m-9 bg-black rounded-xl text-center">
+          <div className="p-4 m-9 bg-black rounded-xl text-center hover-2">
             <a href={val.url} target="_blank">
               {val.title}
             </a>

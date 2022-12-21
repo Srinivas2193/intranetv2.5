@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import "./SubQa.css";
 
 function SubQA() {
   const { id } = useParams();
@@ -18,10 +19,10 @@ function SubQA() {
     });
   }, [id]);
   return (
-    <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100">
-      <div className="text-3xl text-white">
-        <div className="p-4 bg-black rounded-xl">
-          <a href={filterData.url} target="self">
+    <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100 ">
+      <div className="text-5xl text-white">
+        <div className="p-4 bg-black rounded-xl hover-2">
+          <a href={filterData.url} target="_blank">
             {filterData.title}
           </a>
         </div>

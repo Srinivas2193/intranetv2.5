@@ -71,7 +71,7 @@ export const Login = (props) => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center pb-16 bg-gradient-to-r from-orange-300 to-blue-300 min-w-[1200px] max-w-[1920px]">
+      <div className="flex  h-[776px] flex-row justify-center pb-16 bg-gradient-to-r from-orange-300 to-blue-300 min-w-[1200px] max-w-[1920px]">
       <div>
         <form onSubmit={onSubmit} 
         className=" login flex flex-col  bg-gradient-to-r from-blue-300 to-orange-300  justify-end w-[953px] pt-10 shadow-2xl" >
