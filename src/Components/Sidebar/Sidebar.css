@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-left: 10px;
   }
   .title{
     font-size: 3em;
@@ -36,6 +37,7 @@
   }
   
   .sidebar{
+    padding-top: 12px;
     width: 350px;
     flex-shrink: 0;
     background-color:#a1c6eb;
@@ -53,10 +55,10 @@
     border-radius: 5px;
   }
   
-  .sidebar-item:hover{
+  /* .sidebar-item:hover{
     background-color: rgba(247, 248, 252, 0.3);
-    /* background-color:black */
-  }
+    background-color:black 
+  }*/
   
   .sidebar-title{
     display: flex;
@@ -71,7 +73,7 @@
   }
   .sidebar-title .toggle-btn{
     cursor: pointer;
-    transition: transform .3s;
+    transition: transform .30s;
   }
   .sidebar-item.open > .sidebar-title .toggle-btn{
     transform: rotate(90deg);
@@ -90,16 +92,36 @@
     text-decoration:solid;
     display: list-item;
     font-size: 1.3em;
+    border-radius: 15px; 
   }
   .sidebar-item.plain1{
-    text-decoration:dotted;
+    /* text-decoration:dotted; */
     font-size: 1.3em;
   }
   .sidebar-item.plain:hover{
     /* text-decoration: underline; */
+    /* padding: 20px;*/
+    /* border-radius: 15px;  */
+    /* background-color: rgb(205, 134, 4); */
+    color:black;
   }
   .sidebar-item.plain i{
-    display: inline-block;
-    width: 1.7em;
+    
+    /* display: inline-block; */
+    /* width: 1.7em; */
    
   }
+
+  .listStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+}
+
+.listIcon{
+  margin-top: 6px;
+  color: black;
+}
+  

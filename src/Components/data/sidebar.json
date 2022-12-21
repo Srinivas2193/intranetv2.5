@@ -183,35 +183,35 @@
 
     {
         "title":"SDLC-Project Execution Process-Agile ",
-        "path": "/home/sdlc",
+        "path": "sdlc",
         "status": true,
         "childrens": [  
         {
             "title": " Blockchain",
-            "path": "/home/sdlc/blockchain",
+            "path": "sdlc/blockchain",
             "status": true,
             "childrens": [
                 {
                     "title": "coyni",
-                    "path": "/home/sdlc/blockchain",
+                    "path": "sdlc/blockchain",
                     "status": true,
                     "id":"coyni"
                 },
                 {
                     "title": "ChargeSavvy",
-                    "path": "/home/sdlc/blockchain",
+                    "path": "sdlc/blockchain",
                     "status": true,
                     "id":"chargeSavvy"
                 },
                 {
                     "title": "TEU",
-                    "path": "/home/sdlc/blockchain",
+                    "path": "sdlc/blockchain",
                     "status": true,
                     "id":"teu"
                 },
                 {
                     "title": "TENNA",
-                    "path": "/home/sdlc/blockchain",
+                    "path": "sdlc/blockchain",
                     "status": true,
                     "id":"tenna"
                 }
@@ -221,24 +221,24 @@
         },
         {
             "title": " M&E - OTT",
-            "path": "/home/sdlc/me-ott",
+            "path": "sdlc/me-ott",
             "status": true,
             "childrens": [
                 {
                     "title": "iStream",
-                    "path": "/home/sdlc/me-ott",
+                    "path": "sdlc/me-ott",
                     "status": true,
                     "id":"istream"
                 },
                 {
                     "title": "Comcast",
-                    "path": "/home/sdlc/me-ott",
+                    "path": "sdlc/me-ott",
                     "status": true,
                     "id":"comcast"
                 },
                 {
                     "title": "WISH",
-                    "path": "/home/sdlc/me-ott",
+                    "path": "sdlc/me-ott",
                     "status": true,
                     "id":"wish"
                 }
@@ -247,6 +247,271 @@
 
 
     ]
+    },
+    {
+        "title": "L&D ",
+        "path": "l&d",
+        "status": true,
+        "childrens":[
+            {
+                "title": "Domains",
+                "path": "l&d/domains",
+                "status": true,
+                "childrens": [
+                    {
+                        "title": "Quality Assurance",
+                        "path": "l&d/domains/qa",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "Manual",
+                                "path": "l&d/domains/qa",
+                                "status": true,
+                                "id":"manual"
+                            },
+                            {
+                                "title": "Automation",
+                                "path": "l&d/domains/qa",
+                                "status": true,
+                                "id":"automation"
+                            },
+                            {
+                                "title": "Performance",
+                                "path": "l&d/domains/qa",
+                                "status": true,
+                                "id":"performance"
+                            },
+                            {
+                                "title": "Security",
+                                "path": "l&d/domains/qa",
+                                "status": true,
+                                "id":"security"
+                            },
+                            {
+                                "title": "Automation Framework",
+                                "path": "l&d/domains/qa",
+                                "status": true,
+                                "id":"automation-framework"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "ReactJS",
+                        "path": "l&d/domains/react-js",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "Training Topics",
+                                "path": "l&d/domains/react-js",
+                                "status": true,
+                                "id":"training-topics"
+                            },
+                            {
+                                "title": "Day Wise Topics",
+                                "path": "l&d/domains/react-js",
+                                "status": true,
+                                "id":"day-wise-topics"
+                            },
+                            {
+                                "title": "Slide Deck",
+                                "path": "l&d/domains/react-js",
+                                "status": true,
+                                "id":"slide-deck"
+                            },
+                            {
+                                "title": "Practice exercises",
+                                "path": "l&d/domains/react-js",
+                                "status": true,
+                                "id":"practice-exercises"
+                            },
+                            {
+                                "title": "Projects",
+                                "path": "l&d/domains/react-js",
+                                "status": true,
+                                "id":"projects"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Node JS",
+                        "path": "l&d/domains/node-js",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "Training Topics",
+                                "path": "l&d/domains/node-js",
+                                "status": true,
+                                "id":"training-topics"
+                            },
+                            {
+                                "title": "Day Wise Topics",
+                                "path": "l&d/domains/node-js",
+                                "status": true,
+                                "id":"day-wise-topics"
+                            },
+                            {
+                                "title": "Slide Deck",
+                                "path": "l&d/domains/node-js",
+                                "status": true,
+                                "id":"slide-deck"
+                            },
+                            {
+                                "title": "Practice exercises",
+                                "path": "l&d/domains/node-js",
+                                "status": true,
+                                "id":"practice-exercises"
+                            },
+                            {
+                                "title": "Projects",
+                                "path": "l&d/domains/node-js",
+                                "status": true,
+                                "id":"projects"
+                            }
+                        ]
+                    },
+                    {
+                        "title": ".NET & Angular",
+                        "path": "l&d/domains/.net-angular",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "Training Topics",
+                                "path": "l&d/domains/.net-angular",
+                                "status": true,
+                                "id":"training-topics"
+                            },
+                            {
+                                "title": "Day Wise Topics",
+                                "path": "l&d/domains/.net-angular",
+                                "status": true,
+                                "id":"day-wise-topics"
+                            },
+                            {
+                                "title": "Slide Deck",
+                                "path": "l&d/domains/.net-angular",
+                                "status": true,
+                                "id":"slide-deck"
+                            },
+                            {
+                                "title": "Practice exercises",
+                                "path": "l&d/domains/.net-angular",
+                                "status": true,
+                                "id":"practice-exercises"
+                            },
+                            {
+                                "title": "Projects",
+                                "path": "l&d/domains/.net-angular",
+                                "status": true,
+                                "id":"projects"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "JAVA, SB, MS",
+                        "path": "l&d/domains/java-sb-ms",
+                        "status": true,
+                        "childrens": [
+                            {
+                                "title": "Training Topics",
+                                "path": "l&d/domains/java-sb-ms",
+                                "status": true,
+                                "id":"training-topics"
+                            },
+                            {
+                                "title": "Day Wise Topics",
+                                "path": "l&d/domains/java-sb-ms",
+                                "status": true,
+                                "id":"day-wise-topics"
+                            },
+                            {
+                                "title": "Slide Deck",
+                                "path": "l&d/domains/java-sb-ms",
+                                "status": true,
+                                "id":"slide-deck"
+                            },
+                            {
+                                "title": "Practice exercises",
+                                "path": "l&d/domains/java-sb-ms",
+                                "status": true,
+                                "id":"practice-exercises"
+                            },
+                            {
+                                "title": "Projects",
+                                "path": "l&d/domains/java-sb-ms",
+                                "status": true,
+                                "id":"projects"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "title": "Behavioral Training ",
+                "path": "l&d/behavioral",
+                "status": true,
+                "childrens":[
+                    {
+                        "title": "Communication Skills",
+                        "path": "l&d/behavioral/communication-skills",
+                        "status": true,
+                        "childrens":[
+                            {
+                                    "title": "Basic Communication",
+                                    "path": "l&d/behavioral/communication/basic-communication",
+                                    "status": true,
+                                    "childrens":[
+                                        {
+                                            "title": "Handbook",
+                                            "path": "l&d/behavioral/communication/basic-communication",
+                                            "status": true,
+                                            "id":"handbook"
+                                        },
+                                        {
+                                            "title": "PPT",
+                                            "path": "l&d/behavioral/communication/basic-communication",
+                                            "status": true,
+                                            "id":"ppt"
+                                        },
+                                        {
+                                            "title": "Assessments",
+                                            "path": "l&d/behavioral/communication/basic-communication",
+                                            "status": true,
+                                            "id":"assessments"
+                                        },
+                                        {
+                                            "title": "Activity",
+                                            "path": "l&d/behavioral/communication/basic-communication",
+                                            "status": true,
+                                            "id":"activity"
+                                        }
+                                    ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Time Management",
+                        "path": "l&d/behavioral/time-management",
+                        "status": true,
+                        "childrens":[
+                            {
+                                "title": "PPT",
+                                "path": "l&d/behavioral/time-management",
+                                "status": true,
+                                "id":"ppt"
+                            },
+                            {
+                                "title": "Activity",
+                                "path": "l&d/behavioral/time-management",
+                                "status": true,
+                                "id":"activity"
+                            }
+                        ]   
+                    }
+                ]
+            }
+        ]
+       
     }
     
     

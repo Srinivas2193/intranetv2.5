@@ -31,30 +31,30 @@ const [filterData, setFilterData] = useState("");
   }
   return (
     <>
-      {visible && filterData.id && <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100">
+      {visible && filterData.id && <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100 ">
       <div className="text-3xl text-white">
-        <div className="p-4 bg-black rounded-xl">
-            <button onClick={EnablePdf} >
-              {filterData.title}
-            </button>
-          </div>
+        <div className="p-4 bg-black rounded-xl hover-2">
+          <a href={filterData.url}>
+            {filterData.title}
+          </a>
         </div>
-      </div>}
+      </div>
+    </div>}
 
       {visible === false && <>
       { filterData.pdf ? <div>
         <object data={filterData.pdf} type="application/pdf" className="w-[1570px] max-w-[-webkit-fill-available] h-[730px] " >
           </object>
         </div>: 
-        <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100">
+        <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100 ">
         <div className="text-3xl text-white">
-          <div className="p-4 bg-black rounded-xl">
-                 <a href={filterData.url} target="self">
-                   {filterData.title}
-                 </a>
-               </div>
-             </div>
-           </div>
+          <div className="p-4 bg-black rounded-xl hover-2">
+            <a href={filterData.url}>
+              {filterData.title}
+            </a>
+          </div>
+        </div>
+      </div>
 
         }
         </>
