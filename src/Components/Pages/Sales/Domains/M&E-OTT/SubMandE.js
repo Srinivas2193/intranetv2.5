@@ -31,12 +31,12 @@ const [filterData, setFilterData] = useState("");
   }
   return (
     <>
-      {visible && filterData.id && <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100 ">
+      {visible && <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100 ">
       <div className="text-3xl text-white">
         <div className="p-4 bg-black rounded-xl hover-2">
-          <a href={filterData.url}>
+          <button  onClick={EnablePdf}>
             {filterData.title}
-          </a>
+          </button>
         </div>
       </div>
     </div>}
@@ -49,9 +49,9 @@ const [filterData, setFilterData] = useState("");
         <div className="w-[1570px] max-w-[-webkit-fill-available] h-[100%] flex flex-row flex-wrap justify-center items-center bg-slate-100 ">
         <div className="text-3xl text-white">
           <div className="p-4 bg-black rounded-xl hover-2">
-            <a href={filterData.url}>
+            <button >
               {filterData.title}
-            </a>
+            </button>
           </div>
         </div>
       </div>

@@ -4,6 +4,9 @@ import "./Navbar.css";
 
 export const Navbar = () => {
   const navigate = useNavigate();
+  setTimeout(()=>{
+    localStorage.setItem("status", JSON.stringify(false));
+  },30*60000)
   const logout = () => {
     localStorage.setItem("status", JSON.stringify(false));
 
