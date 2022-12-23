@@ -63,6 +63,8 @@ import Basic_Communication from "./Components/Pages/Behavuioral/Comminication/Ba
 import BasicCommunication_SubPages from "./Components/Pages/Behavuioral/Comminication/BasicCommunication/SubPages";
 import TimeManagement from "./Components/Pages/Behavuioral/TimeManagement/TimeManagement";
 import TimeManagement_SubPages from "./Components/Pages/Behavuioral/TimeManagement/SubPages";
+import DisplayPdf from "./Components/Pages/Behavuioral/Comminication/BasicCommunication/DisplayPdf";
+import PPT from "./Components/Pages/Behavuioral/Comminication/BasicCommunication/PPT";
 
 function App() {
   const router = createBrowserRouter(
@@ -126,6 +128,10 @@ function App() {
             <Route path="l&d/behavioral/communication-skills" element={<Behavioural_Communications/>} />
             <Route path="l&d/behavioral/communication/basic-communication" element={<Basic_Communication/>} />
             <Route path="l&d/behavioral/communication/basic-communication/:id" element={<BasicCommunication_SubPages/>} />
+            <Route path="/l&d/behavioral/communication/basic-communications/:id" element={<DisplayPdf/>} />
+
+            <Route path="/l&d/behavioral/communication/basic-communications/ppt" element={<PPT/>} />
+
 
 
             <Route path="l&d/behavioral/time-management" element={<TimeManagement/>} />

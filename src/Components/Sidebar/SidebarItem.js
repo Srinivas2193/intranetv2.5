@@ -54,7 +54,7 @@ export default function SidebarItem({ item }) {
         <div className="wrapper">
         <ul className=" ml-3">
           <li onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} 
-          className="listStyle hover:text-white p-[8px] hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-400 duration-[400ms,700ms] transition-[color,box-shadow] hover:rounded-[15px] hover:p-[8px] ">
+          className="listStyle  p-[8px] hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-orange-400 duration-[400ms,700ms] transition-[color,box-shadow] hover:rounded-[15px] hover:p-[8px] ">
             {item.title}
           </li>
         </ul>

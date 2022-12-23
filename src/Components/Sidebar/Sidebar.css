@@ -38,6 +38,7 @@
   
   .sidebar{
     padding-top: 12px;
+    padding-bottom:12px;
     width: 350px;
     flex-shrink: 0;
     background-color:#a1c6eb;
@@ -47,7 +48,20 @@
     padding-right:15px ;
   }
   
+  .sidebar::-webkit-scrollbar {
+
+    width: 5px;
   
+    padding: 100px;
+  
+  }
+  .sidebar::-webkit-scrollbar-thumb {
+
+    background: red;
+  
+    border-radius: 10px;
+  
+  }
   .sidebar-item{
     padding: .35em 1em;
     display: block;
